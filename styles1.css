@@ -7,9 +7,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns, left for box, right for image grid */
+    grid-template-columns: repeat(2, 1fr); 
     align-self: center;
-    grid-column-gap: 40px; /* Adjust the gap as needed */
+    grid-column-gap: 40px;
 
 }
 
