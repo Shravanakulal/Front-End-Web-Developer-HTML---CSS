@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif , Arial, sans-serif;
-    background: linear-gradient(to right, rgb(252, 233, 163) 10%, rgb(246, 160, 207) 80%); /* Adjust colors as needed */
+    background: linear-gradient(to right, rgb(252, 233, 163) 10%, rgb(246, 160, 207) 80%);
 
 }
 
@@ -13,8 +13,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between; /* Add space between items */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .navbar {
@@ -22,7 +22,7 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
 }
 
 .navbar li {
@@ -38,12 +38,11 @@ nav {
 }
 
 .navbar a:hover {
-    color: #ffcc00; /* Change color on hover */
-}
+    color: #ffcc00; 
 
 .menu-icon img {
-    width: 24px; /* Adjust the size of the menu icon */
-    cursor: pointer; /* Add cursor pointer on hover */
+    width: 24px; 
+    cursor: pointer; 
 }
 
 
@@ -103,7 +102,7 @@ nav {
     border: 1px;
     border-radius: 1px;
     cursor: pointer;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
 
 }
 
@@ -115,7 +114,6 @@ nav {
 
 
 
-/* Tablet */
 @media only screen and (max-width: 768px) {
     .content {
         max-width: 100%;
@@ -128,7 +126,6 @@ nav {
     }
 }
 
-/* Mobile */
 @media only screen and (max-width: 480px) {
     .content,
     .sidebar {
